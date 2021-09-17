@@ -20,7 +20,7 @@
 >
 > I'm excited the next 4 weeks are going to be an adventure together! 🎢
 > 
-> I promise to answer any questions you may have about what we're programming and to be upfront with you so you are not > surprised with anything.
+> I promise to answer any questions you may have about what we're programming and to be upfront with you so you are not surprised with anything.
 >
 >
 > Welcome again and best of luck!

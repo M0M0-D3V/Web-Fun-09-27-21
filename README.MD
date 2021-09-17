@@ -3,7 +3,7 @@
 ## Taught By: Yours Truly, Monica Hong :dancer:
 ## Class Calendar: [Link to Calendar](https://docs.google.com/spreadsheets/d/19icExurNl5hXTqkHkrgI4wGIZIw_YiPLW_9WQnHT6FM/edit?usp=sharing)
 
-<detail>
+<details>
 <summary>Click to see message from Monica!</summary>
 
 ```
@@ -23,6 +23,6 @@ Welcome again and best of luck!
 --Monica Hong🥰
 ```
 
-</detail>
+</details>
 
 stuff

@@ -4,7 +4,7 @@
 ## Class Calendar: [Link to Calendar](https://docs.google.com/spreadsheets/d/19icExurNl5hXTqkHkrgI4wGIZIw_YiPLW_9WQnHT6FM/edit?usp=sharing)
 
 <details>
-<summary>Click to see message from Monica!</summary>
+<summary><b>Click to see message from Monica!</b></summary>
 
 > Welcome Ninjas!
 > 
@@ -28,5 +28,3 @@
 > --Monica Hong🥰
 
 </details>
-
-stuff

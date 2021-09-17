@@ -1,5 +1,4 @@
 # :star: Welcome To Session 1 :star:
-
 ## 0- The Way of The Dojo
 - Rules, Requirements, Exams...
 ## 1- Tools & Resources

@@ -10,8 +10,7 @@
 ## 3- CSS Page Layout
 - Building HTML in Layers
   - Lego Concept
-## 4- HTML
-- 
-## 5- CSS
-- Link to HTML
-- Selecting a ___
+## 4- JavaScript Intro
+- Variables
+## 5- Putting HTML/CSS/JS together
+- demo

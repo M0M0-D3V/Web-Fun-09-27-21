@@ -6,7 +6,6 @@
 <details>
 <summary><b>Click to see message from Monica!</b></summary>
 
-<blockquote style="width: 100%">
 <p style="font-size: 16pt; font-weight: bold;">
     Welcome Ninjas!
     
@@ -30,6 +29,5 @@
     
     --Monica Hong🥰
 </p>
-</blockquote>
 
 </details>

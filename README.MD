@@ -22,6 +22,7 @@
 > 
 > I promise to answer any questions you may have about what we're programming and to be upfront with you so you are not surprised with anything.
 >
+> I only ask that you come with a curiosity to dive in with me and do what is necessary to stay on course each week.
 >
 > Welcome again and best of luck!
 > 

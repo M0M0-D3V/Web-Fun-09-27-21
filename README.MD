@@ -29,3 +29,14 @@ Welcome again and best of luck!
 --Monica Hong🥰
 
 </details>
+
+---
+## Get Started:
+### Setup Computer
+- Install VS Code
+- Download starter Extensions
+- Create main folder tree
+- 
+### My Intro and Welcome
+- Motivation
+- About me

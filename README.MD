@@ -31,12 +31,15 @@ Welcome again and best of luck!
 </details>
 
 ---
-## Get Started:
+## Welcome, let's get started:
+### Virtual Tour
+- Class Calendar
+- Platform
+- Discord
+### Get Ahead
+- Peak at first assignment
+- Algo App
 ### Setup Computer
 - Install VS Code
 - Download starter Extensions
-- Create main folder tree
-- 
-### My Intro and Welcome
-- Motivation
-- About me
+- Create main folder tree for assignments

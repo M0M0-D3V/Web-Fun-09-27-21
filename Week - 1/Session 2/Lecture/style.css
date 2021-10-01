@@ -7,7 +7,7 @@
 
 body {
     /* background-color: red; */
-    width: 1100px;
+    width: 1000px;
 }
 h1 {
     border: 5px solid black;
@@ -24,40 +24,47 @@ h1 {
     padding-left: 10px;
     border-radius: 15px;
 }
-/* .info p {
-    display: inline-block;
-} */
-.info {
-    display: flex;
+p {
+    line-height: 18pt;
 }
+.info p {
+    display: inline-block;
+    /* <p> naturally is "display: block" so it needs a width so that it doesn't go all the way side to side*/
+    width: 47%;
+    vertical-align: top;
+}
+/* .info {
+    display: flex;
+} */
 /* select id using # */
 #hero-img {
     width: 1000px;
 }
 /* select class using . */
 .nav-link {
-
+    color: white;
 }
 img.instrument-img {
-    width: 200px;
-}
-p {
-    line-height: 18pt;
+    /* width: 200px; */
+    /* changed to max-width because this will have image fit flush to it's parent size */
+    max-width: 100%;
 }
 .form-info {
     display: inline-block;
 }
-/* tool purpose */
-.center {
-    text-align: center;
-}
-form input[type=text] {
-    text-align: center;
-}
 .instrument {
     display: inline-block;
     vertical-align: top;
+    width: 19%;
 }
 footer img {
     width: 150px;
+}
+/* selecting specific input types */
+form input[type=text] {
+    text-align: center;
+}
+/* tool purpose */
+.center {
+    text-align: center;
 }

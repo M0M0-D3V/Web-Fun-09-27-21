@@ -1,0 +1,12 @@
+body
+    - header
+    - main
+        - left side box
+            - image and text
+        - right main box
+            - sub header
+            - article row
+                - article
+                - article
+                - article
+            - footer

@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0.5px dotted pink;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+h1 {
+    background-color: #dcaf59;
+    padding: 10px;
+    border: 2px solid black;
+}
+main {
+    /* position: relative; */
+    margin: 0 auto;
+    width: 990px;
+    /* justify-item: center; */
+}
+#left-box {
+    /* position: absolute;
+    left: 100px; */
+    background-color: pink;
+    width: fit-content;
+    height: 500px;
+}
+#left-box img {
+    padding: 40px 10px;
+    vertical-align: middle;
+}
+#right-box {
+    vertical-align: top;
+}
+#sub-header {
+    background-color: lightgreen;
+}
+.content {
+    background-color: #5a9e96;
+}
+.display-b {
+    display: inline-block;
+}

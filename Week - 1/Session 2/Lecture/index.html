@@ -4,22 +4,33 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 3 ways to connect css -->
+    <!-- external -->
+    <link rel="stylesheet" href="style.css">
+    <!-- internal -->
+    <!-- <style>
+        body {
+            background-color: blue;
+        }
+    </style> -->
     <title>Band Audition</title>
 </head>
+<!-- <body style="background-color: green;"> -->
 <body>
     <!-- header top portion of page -->
     <header>
-        <nav>
+        <!-- inline style -->
+        <nav style="background-color: blueviolet;">
             <a class="nav-link" href="#">link</a>
             <a class="nav-link" href="#">link</a>
             <a class="nav-link" href="#">link</a>
         </nav>
-        <img class="hero-img" src="./img/hero.jpg" alt="airguitar">
-        <h1>Audition for [Insert Band Name]</h1>
+        <img id="hero-img" src="./img/hero.jpg" alt="airguitar">
+        <h1>Audition for <span>[Insert Band Name]</span></h1>
     </header>
     <!-- instruments, requirements, and form -->
     <main>
-        <table>
+        <!-- <table>
             <thead>
                 <tr>
                     <th>Bass</th>
@@ -38,14 +49,45 @@
                     <td><img class="instrument-img" src="./img/kb.jpg" alt="Keyboard"></td>
                 </tr>
             </tbody>
-        </table>
+        </table> -->
+        <div class="instrument center">
+            <h4>Bass</h4>
+            <img class="instrument-img" src="./img/bass.jpg" alt="Bass">
+        </div>
+        <div class="instrument center">
+            <h4>Guitar</h4>
+            <img class="instrument-img" src="./img/guitar.jpg" alt="Guitar">
+        </div>
+        <div class="instrument center">
+            <h4>Vocal</h4>
+            <img class="instrument-img" src="./img/mic.jpg" alt="Vocal">
+        </div>
+        <div class="instrument center">
+            <h4>Drum</h4>
+            <img class="instrument-img" src="./img/drums.jpg" alt="Drum">
+        </div>
+        <div class="instrument center">
+            <h4>Keyboard</h4>
+            <img class="instrument-img" src="./img/kb.jpg" alt="Keyboard">
+        </div>
+
         <h3>Audition Requirements</h3>
-        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo assumenda pariatur quaerat eum voluptatem praesentium obcaecati ratione id aliquid. Beatae nulla, voluptate repudiandae enim natus quasi provident quas aliquam?
-        <p>Sed laborum maxime porro necessitatibus, minima soluta veniam, quia ex eius, modi itaque. Esse, animi recusandae fugit odit ad repellendus itaque, minima labore similique accusantium numquam ipsam aliquid aperiam alias!</p>
-        <p>Nam, aliquid atque quis recusandae et quidem non voluptate odio quo doloribus repellat officia quia ducimus praesentium ea in corrupti dolorum? Nam praesentium deserunt veritatis optio velit tempora atque nulla.</p>
+        <div class="info center">
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo assumenda pariatur quaerat eum voluptatem praesentium obcaecati ratione id aliquid. Beatae nulla, voluptate repudiandae enim natus quasi provident quas aliquam?
+            </p>
+            <p>
+                Sed laborum maxime porro necessitatibus, minima soluta veniam, quia ex eius, modi itaque. Esse, animi recusandae fugit odit ad repellendus itaque, minima labore similique accusantium numquam ipsam aliquid aperiam alias!
+
+            </p>
+        </div>
+        <p class="center">
+            Nam, aliquid atque quis recusandae et quidem non voluptate odio quo doloribus repellat officia quia ducimus praesentium ea in corrupti dolorum? Nam praesentium deserunt veritatis optio velit tempora atque nulla.
+        </p>
 <!-- sign up form -->
         <h3 class="center">Sign Up</h3>
         <form class="center">
+            <!-- <form action="" method=""> -->
             <!-- a trick you can do is use <p> and wrap the closing tag outside of <input> tag -->
             <!-- <p>Your Name:
                 <input type="text" placeholder="The Dude">
@@ -53,9 +95,9 @@
             <div class="form-info">
                 <!-- the "for" attribute in label is useful on the browser. When user clicks on the text "Your Name", the input box will automatically be selected for user to start typing their name -->
                 <label for="your-name">Your Name:</label>
-                <input id="your-name" type="text" placeholder="Jack Black">
+                <input class="center" id="your-name" type="text" placeholder="Jack Black">
                 <label>Your Stage Name:</label>
-                <input id="stage-name" type="text" placeholder="Tenacious D">
+                <input class="center" id="stage-name" type="text" placeholder="Tenacious D" value="KISS">
             </div>
             <div class="form-info">
                 <label>Contact Info:</label>
@@ -69,9 +111,9 @@
 
     </main>
     <!-- copyright and logo -->
-    <footer>
+    <footer class="center">
         <p>Copyright 2021, by Ninjas of the Dojo</p>
-        <img class="logo-img" src="./img/ninja.png" alt="ninja">
+        <img src="./img/ninja.png" alt="ninja">
     </footer>
 </body>
 </html>

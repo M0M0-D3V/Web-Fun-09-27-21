@@ -2,6 +2,9 @@
 
 ## Links
 - [Developer Roadmaps](https://roadmap.sh/)
+- [CSS Tricks Flex](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [FlexBox Froggy](https://flexboxfroggy.com/)
+- [Flex Playground](https://codepen.io/enxaneta/full/adLPwv)
 - [StackOverflow - addEventListener vs onclick](https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick)
 
 ---
@@ -15,4 +18,4 @@
 - [The Subtle Art of Not Giving a F*ck](https://www.amazon.com/Subtle-Art-Not-Giving-Counterintuitive-ebook/dp/B019MMUA8S/ref=sr_1_1?crid=LR3H3EJI9ZU2&dchild=1&keywords=the+subtle+art+of+not+giving+a+fck&qid=1632644674&sprefix=the+subtle+art%2Caps%2C223&sr=8-1)
   - [Summary by the Author on Youtube](https://www.youtube.com/watch?v=lz8sUiXAnbs)
 - [Becoming Bulletproof: Protect Yourself, Read People, Influence Situations, and Live Fearlessly](https://www.amazon.com/Becoming-Bulletproof-Influence-Situations-Fearlessly-ebook/dp/B07TGF9Z95/ref=sr_1_1?dchild=1&keywords=becoming+bulletproof&qid=1632644182&sr=8-1)
-- [12 Rules for Life: An Antidoe to Chaos](https://www.amazon.com/12-Rules-Life-Antidote-Chaos-ebook/dp/B01FPGY5T0/ref=cm_cr_arp_d_product_top?ie=UTF8)
+- [12 Rules for Life: An Antidote to Chaos](https://www.amazon.com/12-Rules-Life-Antidote-Chaos-ebook/dp/B01FPGY5T0/ref=cm_cr_arp_d_product_top?ie=UTF8)

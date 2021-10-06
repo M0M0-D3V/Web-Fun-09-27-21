@@ -1,0 +1,42 @@
+.container{
+    width: 950px;
+    background-color: silver;
+    margin: 0px auto;
+}
+.top-nav {
+    height: 150px;
+    background-color: green;
+    margin-bottom: 15px;
+}
+.side-nav {
+    height: 300px;
+    width: 200px;
+    background-color: blue;
+    vertical-align: top;
+    margin-right: 15px;
+}
+.main {
+    height: 400px;
+    width: 700px;
+    background-color: red;
+}
+.sub-content {
+    height: 200px;
+    width: 210px;
+    background-color: yellow;
+    margin-right: 10px;
+}
+#advertisement {
+    height: 120px;
+    width: 660px;
+    background-color: purple;
+    margin-top: 30px;
+}
+
+/* Extra: DRY Method (Don't Repeat Yourself) */
+.inline-b {
+    display:inline-block;
+}
+.p-15 {
+    padding: 15px;
+}

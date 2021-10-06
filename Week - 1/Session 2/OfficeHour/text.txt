@@ -2,7 +2,8 @@ body
     - header
     - main
         - left side box
-            - image and text
+            - image
+            - text
         - right main box
             - sub header
             - article row

@@ -3,5 +3,7 @@
 ...Quick recap...
 ## 0- Questions?
 
-## 1- Javascript
-- ??
+## 4- JavaScript Intro
+- Variables
+## 5- Putting HTML/CSS/JS together
+- demo

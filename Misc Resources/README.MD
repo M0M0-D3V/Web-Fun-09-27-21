@@ -6,6 +6,7 @@
 - [FlexBox Froggy](https://flexboxfroggy.com/)
 - [Flex Playground](https://codepen.io/enxaneta/full/adLPwv)
 - [StackOverflow - addEventListener vs onclick](https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick)
+- [DEV - querySelector vs getElementBy...](https://dev.to/jasterix/queryselectorall-vs-getelements-2mnf)
 
 ---
 ## 📚 Book Recommendations

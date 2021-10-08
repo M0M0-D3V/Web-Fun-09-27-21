@@ -4,13 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- can put js file in head also -->
-    <!-- <script src="script.js"></script> -->
     <link href="style.css" rel="stylesheet">
     <title>Microwave</title>
 </head>
 <body class="flex space-evenly">
-    <h1 id="title">Microwave</h1>
+    <h1>Microwave</h1>
     <div id="microwave" class="flex">
         <div id="window" class="off">
             <div id="handle"></div>
@@ -18,14 +16,14 @@
         <div id="panel" class="flex">
             <div id="clock"><p>10:00</p></div>
             <div id="prog-btns" class="flex wrap space-between">
-                <p class="program-btn small" onclick="addToTotal()">Popcorn</p>
-                <p class="program-btn small" onclick="addToTotal()">Pizza</p>
-                <p class="program-btn small" onclick="addToTotal()">Soup</p>
-                <p id="potato-btn" class="program-btn small" onclick="addToTotal(this)">Potato</p>
-                <p class="program-btn small" onclick="addToTotal()">Meat</p>
-                <p class="program-btn small" onclick="addToTotal()">Reheat</p>
-                <p class="program-btn small" onclick="addToTotal()">IceCream</p>
-                <p class="program-btn small" onclick="addToTotal()">Butter</p>
+                <p id="Popcorn-btn" class="program-btn small" onclick="addToThis(this)">Popcorn</p>
+                <p id="Pizza-btn" class="program-btn small" onclick="addToThis(this)">Pizza</p>
+                <p id="Soup-btn" class="program-btn small" onclick="addToThis(this)">Soup</p>
+                <p id="Potato-btn" class="program-btn small" onclick="addToThis(this)">Potato</p>
+                <p id="Meat-btn" class="program-btn small" onclick="addToThis(this)">Meat</p>
+                <p id="Reheat-btn" class="program-btn small" onclick="addToThis(this)">Reheat</p>
+                <p id="IceCream-btn" class="program-btn small" onclick="addToThis(this)">IceCream</p>
+                <p id="Butter-btn" class="program-btn small" onclick="addToThis(this)">Butter</p>
             </div>
             <div id="min-btns" class="flex wrap space-between">
                 <p class="min-btn">1</p>
@@ -42,23 +40,22 @@
                 <p class="min-btn small">Timer</p>
             </div>
             <div id="start-stop" class="flex space-evenly">
-                <p id="stop" class="ss-btn" onclick="stop()" onmouseover="hover()" onmouseout="hoverOut(this)">Stop</p>
-                <p id="start" class="ss-btn" onclick="start()" onmouseover="hover(this)" onmouseout="hoverOut(this)">Start</p>
+                <p id="stop" class="ss-btn">Stop</p>
+                <p id="start" class="ss-btn">Start</p>
             </div>
         </div>
     </div>
     <h3>Total # Things Cooked: <span id="total">0</span></h3>
     <div id="counters" class="flex space-evenly">
-        <p>Popcorn <span>0</span></p>
-        <p>Pizza <span>0</span></p>
-        <p>Soup <span>0</span></p>
-        <p>Potato <span>0</span></p>
-        <p>Meat <span>0</span></p>
-        <p>Reheat <span>0</span></p>
-        <p>Ice Cream <span>0</span></p>
-        <p>Butter <span>0</span></p>
+        <p>Popcorn <span id="Popcorn-ct">0</span></p>
+        <p>Pizza <span id="Pizza-ct">0</span></p>
+        <p>Soup <span id="Soup-ct">0</span></p>
+        <p>Potato <span id="Potato-ct">0</span></p>
+        <p>Meat <span id="Meat-ct">0</span></p>
+        <p>Reheat <span id="Reheat-ct">0</span></p>
+        <p>Ice Cream <span id="IceCream-ct">0</span></p>
+        <p>Butter <span id="Butter-ct">0</span></p>
     </div>
 </body>
-<script src="script.js"></script>
-<!-- <script src="scriptsolution.js"></script> -->
+<script src="scriptsolution.js"></script>
 </html>

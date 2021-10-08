@@ -9,10 +9,15 @@
 - Microwave Analogy
 - Variables
 - Types
-  - Primitive - ints, string, true/false, 
-  - Object (more indept next week)
+  - Primitive - ints, string, bool
+  - Object - arrays, collections, dictionary, etc
   - Operators
 - Functions
+  - Signature
+  - Parameters
+  - Other syntax
+- Calling Functions
+  - Arguments
 - Click Event
   - onclick, addEventListener
 ---

@@ -1,113 +1,176 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="./style.css" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./style.css" rel="stylesheet" />
     <title>DojoFitness</title>
-</head>
-<body>
+  </head>
+  <body>
     <!-- header -->
-        <!-- div with an h1 & list for MyClasses | logout -->
-        <!-- list of links -->
+    <!-- div with an h1 & list for MyClasses | logout -->
+    <!-- list of links -->
     <header>
-        <div class="flex space-between container">
-            <h1>DojoFitness</h1>
-            <ul id="top-nav-links" class="flex">
-                <li id="side-border"><a href="">My Classes <span id="classes">0</span></a></li>
-                <li onclick="alert('Press okay to securely logout')">Logout</li>
-            </ul>
-        </div>
-        <ul id="nav-links" class="flex jc-center container">
-            <li>Weapons</li>
-            <li>Weapons</li>
-            <li>Weapons</li>
-            <li>Weapons</li>
-            <li>Weapons</li>
-            <li>Weapons</li>
-            <li>Weapons</li>
+      <div class="flex space-between container">
+        <h1>DojoFitness</h1>
+        <ul id="top-nav-links" class="flex">
+          <li id="side-border">
+            <a href="">My Classes <span id="classes">0</span></a>
+          </li>
+          <li onclick="alert('Press okay to securely logout')">Logout</li>
         </ul>
+      </div>
+      <ul id="nav-links" class="flex jc-center container">
+        <li>Weapons</li>
+        <li>Weapons</li>
+        <li>Weapons</li>
+        <li>Weapons</li>
+        <li>Weapons</li>
+        <li>Weapons</li>
+        <li>Weapons</li>
+      </ul>
     </header>
     <!-- main -->
-        <!-- h2 -->
-        <!-- div for row of divs -->
+    <!-- h2 -->
+    <!-- div for row of divs -->
     <main class="container">
-        <h2>Popular Classes</h2>
-        <div id="classes-row" class="flex space-between">
-            <div class="one-class">
-                <img class="class-photo" src="./images/taijutsu.jpg" alt="taijutsu class">
-                <p class="class-link"><a href="">Taijutsu Combat</a></p>
-                <div id="like-join" class="flex space-between">
-                    <p class="flex">
-                        <img src="./images/heart.jpg" alt="like" onclick="addLike('like-tai')">
-                        <span id="like-tai">84</span>
-                    </p>
-                    <button class="flex"><img src="./images/adduser.png" alt="add" onclick="addToMyClass()">Join</button>
-                </div>
-            </div>
-            <div class="one-class">
-                <img class="class-photo" src="./images/weapons.jpg" alt="taijutsu class">
-                <p class="class-link"><a href="">Weapons Spar & Throw</a></p>
-                <div id="like-join" class="flex space-between">
-                    <p class="flex">
-                        <img src="./images/heart.jpg" alt="like" onclick="addLike('like-weapons')">
-                        <span id="like-weapons">36</span>
-                    </p>
-                    <button class="flex"><img src="./images/adduser.png" alt="add" onclick="addToMyClass()">Join</button>
-                </div>
-            </div>
-            <div class="one-class">
-                <img class="class-photo" src="./images/zen.jpg" alt="taijutsu class">
-                <p class="class-link"><a href="">Mastering Zen</a></p>
-                <div id="like-join" class="flex space-between">
-                    <p class="flex">
-                        <img src="./images/heart.jpg" alt="like" onclick="addLike('like-span')">
-                        <span id="like-span">62</span>
-                    </p>
-                    <button class="flex"><img src="./images/adduser.png" alt="add" onclick="addToMyClass()">Join</button>
-                </div>
-            </div>
+      <h2>Popular Classes</h2>
+      <div id="classes-row" class="flex space-between">
+        <div class="one-class">
+          <img
+            class="class-photo"
+            src="./images/taijutsu.jpg"
+            alt="taijutsu class"
+          />
+          <p class="class-link"><a href="">Taijutsu Combat</a></p>
+          <div id="like-join" class="flex space-between">
+            <p class="flex">
+              <img
+                src="./images/heart.jpg"
+                alt="like"
+                onclick="addLike('like-tai')"
+              />
+              <span id="like-tai">84</span>
+            </p>
+            <button class="flex">
+              <img
+                src="./images/adduser.png"
+                alt="add"
+                onclick="addToMyClass()"
+              />Join
+            </button>
+          </div>
         </div>
-        <!-- h2 -->
-        <!-- div for flex wrap of divs -->
-        <h2>Our Senseis</h2>
-        <div id="sensei-row" class="flex space-between">
-            <div class="one-sensei flex">
-                <img src="./images/sensei.jpg" alt="sensei" onmouseover="showJason(this)" onmouseleave="showKakashi(this)">
-                <div>
-                    <h3>Jasonbradymaru</h3>
-                    <p>Specialty:</p>
-                    <p>&nbsp &nbsp Zen Master, Taijutsu</p>
-                </div>
-            </div>
-            <div class="one-sensei flex">
-                <img src="./images/sensei.jpg" alt="sensei" onmouseover="showAaron(this)" onmouseleave="showKakashi(this)">
-                <div>
-                    <h3>Aaronsamplesuke</h3>
-                    <p>Specialty:</p>
-                    <p>&nbsp &nbsp Weapons, Stealth</p>
-                </div>
-            </div>
-            <div class="one-sensei flex">
-                <img src="./images/sensei.jpg" alt="sensei" onmouseover="showDevon(this)" onmouseleave="showKakashi(this)">
-                <div>
-                    <h3>DevonNewsomaru</h3>
-                    <p>Specialty:</p>
-                    <p>&nbsp &nbsp Weapons, Evasion</p>
-                </div>
-            </div>
-            <div class="one-sensei flex">
-                <img src="./images/sensei.jpg" alt="sensei" onmouseover="showMonica(this)" onmouseleave="showKakashi(this)">
-                <div>
-                    <h3>Monicahongtaro</h3>
-                    <p>Specialty:</p>
-                    <p>&nbsp &nbsp Strength, Nutrition</p>
-                </div>
-            </div>
-
+        <div class="one-class">
+          <img
+            class="class-photo"
+            src="./images/weapons.jpg"
+            alt="taijutsu class"
+          />
+          <p class="class-link"><a href="">Weapons Spar & Throw</a></p>
+          <div id="like-join" class="flex space-between">
+            <p class="flex">
+              <img
+                src="./images/heart.jpg"
+                alt="like"
+                onclick="addLike('like-weapons')"
+              />
+              <span id="like-weapons">36</span>
+            </p>
+            <button class="flex">
+              <img
+                src="./images/adduser.png"
+                alt="add"
+                onclick="addToMyClass()"
+              />Join
+            </button>
+          </div>
         </div>
+        <div class="one-class">
+          <img
+            class="class-photo"
+            src="./images/zen.jpg"
+            alt="taijutsu class"
+          />
+          <p class="class-link"><a href="">Mastering Zen</a></p>
+          <div id="like-join" class="flex space-between">
+            <p class="flex">
+              <img
+                src="./images/heart.jpg"
+                alt="like"
+                onclick="addLike('like-span')"
+              />
+              <span id="like-span">62</span>
+            </p>
+            <button class="flex">
+              <img
+                src="./images/adduser.png"
+                alt="add"
+                onclick="addToMyClass()"
+              />Join
+            </button>
+          </div>
+        </div>
+      </div>
+      <!-- h2 -->
+      <!-- div for flex wrap of divs -->
+      <h2>Our Senseis</h2>
+      <div id="sensei-row" class="flex space-between">
+        <div class="one-sensei flex">
+          <img
+            src="./images/sensei.jpg"
+            alt="sensei"
+            onmouseover="showJason(this)"
+            onmouseleave="showKakashi(this)"
+          />
+          <div>
+            <h3>Jasonbradymaru</h3>
+            <p>Specialty:</p>
+            <p>&nbsp &nbsp Zen Master, Taijutsu</p>
+          </div>
+        </div>
+        <div class="one-sensei flex">
+          <img
+            src="./images/sensei.jpg"
+            alt="sensei"
+            onmouseover="showAaron(this)"
+            onmouseleave="showKakashi(this)"
+          />
+          <div>
+            <h3>Aaronsamplesuke</h3>
+            <p>Specialty:</p>
+            <p>&nbsp &nbsp Weapons, Stealth</p>
+          </div>
+        </div>
+        <div class="one-sensei flex">
+          <img
+            src="./images/sensei.jpg"
+            alt="sensei"
+            onmouseover="showDevon(this)"
+            onmouseleave="showKakashi(this)"
+          />
+          <div>
+            <h3>DevonNewsomaru</h3>
+            <p>Specialty:</p>
+            <p>&nbsp &nbsp Weapons, Evasion</p>
+          </div>
+        </div>
+        <div class="one-sensei flex">
+          <img
+            src="./images/sensei.jpg"
+            alt="sensei"
+            onmouseover="showMonica(this)"
+            onmouseleave="showKakashi(this)"
+          />
+          <div>
+            <h3>Monicahongtaro</h3>
+            <p>Specialty:</p>
+            <p>&nbsp &nbsp Strength, Nutrition</p>
+          </div>
+        </div>
+      </div>
     </main>
     <script src="./script.js"></script>
-</body>
+  </body>
 </html>

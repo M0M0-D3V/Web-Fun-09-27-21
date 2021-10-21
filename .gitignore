@@ -1,4 +1,4 @@
 HideMePlease/
 .DS_Store
-
+AnotherFolderToHide/
 # ds_store is for mac users to avoid pushing it into the repo

@@ -7,7 +7,12 @@
 - [Flex Playground](https://codepen.io/enxaneta/full/adLPwv)
 - [StackOverflow - addEventListener vs onclick](https://stackoverflow.com/questions/6348494/addeventlistener-vs-onclick)
 - [DEV - querySelector vs getElementBy...](https://dev.to/jasterix/queryselectorall-vs-getelements-2mnf)
-
+- [Git - Pretty](http://justinhileman.info/article/git-pretty/)
+- [Git MIT Game](http://web.mit.edu/mprat/Public/web/Terminus/Web/main.html)
+- [No Auth Needed Free APIs](https://mixedanalytics.com/blog/list-actually-free-open-no-auth-needed-apis/)
+- [Public APIs](https://github.com/public-apis/public-apis)
+- [API list](https://apilist.fun/)
+- [About fetch()](https://developer.mozilla.org/en-US/docs/Web/API/fetch)
 ---
 ## 📚 Book Recommendations
 

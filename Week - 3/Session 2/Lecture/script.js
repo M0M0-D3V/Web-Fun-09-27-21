@@ -1,6 +1,11 @@
+
 // remember we have access to the other js file beefy.js imported from html
 console.log(beefObject)
-let beefRegions = beefObject['regions']
+let beefRegions = beefObject['regions'] // will pull the entire value part of the beefObject under the key 'regions'
+
+// objects {
+//  key : value  //notation of the key is inside [] to make objects[key]
+// }
 console.log(beefRegions)
 
 // get the id for regions from html
@@ -15,12 +20,13 @@ function showRegions() {
     regionsHtml.innerText = ""
     for(let i = 0; i < beefRegions.length; i++) {
         let newName = beefRegions[i]['name']
+        // let newName = "newName"
         // console.log(newName)
-        let newDiv = document.createElement("div")
-        newDiv.classList.add("region")
-        newDiv.innerText = newName
+        let newDiv = document.createElement("div")  // <div></div>
+        newDiv.classList.add("region")  // <div class="region"></div>
+        newDiv.innerText = newName  //  <div class="region">CHUCK</div>
         // console.log(newDiv)
-        regionsHtml.append(newDiv)
+        regionsHtml.append(newDiv) // <div id="regions" class="mb-20"><div class="region">newName</div></div>
     }
 }
 
